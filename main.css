@@ -1,0 +1,167 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  text-decoration: none;
+}
+
+.nav {
+  height: 50px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: 2px;
+  margin: 10px;
+}
+
+.nav2 {
+  height: 50px;
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 2px;
+}
+
+.navlinks {
+  color: #3e436b;
+  width: 90px;
+  height: 48px;
+  border: 2px solid gray;
+  border-radius: 10px;
+  text-align: center;
+  padding: 20px;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 17px;
+}
+
+.NavLinks2 {
+  width: 100px;
+  background-color: #3e436b;
+  text-align: center;
+  padding: 10px 10px 10px;
+  border-radius: 5px;
+  color: #fdfef8;
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  flex-direction: row;
+}
+.NavLinks2 :visited {
+  color: #fdfef8;
+}
+
+.logo {
+  font-family: "Fuzzy Bubbles";
+  color: #3e436b;
+  font-size: 45px;
+}
+
+.BrightTitles {
+  background-color: #fdfef8;
+  color: #00baf3;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100px;
+  text-align: center;
+  font-size: 30px;
+  margin: 10px;
+  padding: 10px;
+}
+
+.BrightTitles2 {
+  background-color: #fdfef8;
+  color: #00baf3;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100px;
+  text-align: center;
+  font-size: 20px;
+  margin: 10px;
+}
+
+.Footer {
+  background-color: #fcfedc;
+  color: #3e436b;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: space-evenly;
+  font-size: 20px;
+  height: 150px;
+}
+.Footer :visited {
+  color: #3e436b;
+}
+
+.main-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin: 20px;
+  text-align: center;
+}
+
+#Device-Mockup {
+  height: auto;
+  width: 200px;
+}
+
+.Pingus {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.Pingu1234 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+
+.DarkTitles {
+  color: #3e436b;
+  font-size: 21px;
+  padding: 10px;
+}
+
+.Pale {
+  color: #3e436b;
+  font-size: 14px;
+  width: 250px;
+}
+
+.Text1 {
+  color: #3e436b;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.Text2 {
+  color: #3e436b;
+  font-size: 17px;
+  font-weight: 300;
+}
+
+.Text3 {
+  color: #3e436b;
+  font-size: 17px;
+  font-weight: 100;
+  font-style: italic;
+}
