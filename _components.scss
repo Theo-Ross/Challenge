@@ -1,0 +1,53 @@
+.nav {
+    height: 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding: 2px;
+    margin: 10px;
+}
+
+.nav2 {
+    height: 50px;
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding: 2px;
+}
+
+.navlinks {
+    color: $color-primary;
+    width: 90px;
+    height: 48px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+
+.NavLinks2 {
+    width: 100px;
+    background-color: $color-primary;
+    text-align: center;
+    padding: 10px 10px 10px;
+    border-radius: 5px;
+    color: $color-white;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    flex-direction: row;
+    :visited {
+        color: $color-white;
+    }
+}
