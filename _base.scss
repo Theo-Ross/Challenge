@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,100&display=swap');;
+@import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@700&display=swap');
+
+$font-body: "Roboto", sans-serif;
+$font-display: auto;
+
+$color-primary: #3e436b;
+$color-secondary: #00baf3;
+$color-white: #fdfef8;
+$color-cream: #fcfedc;
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: $font-body;
+    text-decoration: none;
+}
