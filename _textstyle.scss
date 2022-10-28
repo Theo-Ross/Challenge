@@ -1,0 +1,105 @@
+
+.logo {
+    font-family: 'Fuzzy Bubbles';
+    color: $color-primary;
+    font-size: 45px;
+}
+
+.BrightTitles {
+    background-color: $color-white;
+    color: $color-secondary;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100px;
+    text-align: center;
+    font-size: 30px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.BrightTitles2 {
+    background-color: $color-white;
+    color: $color-secondary;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100px;
+    text-align: center;
+    font-size: 20px;
+    margin: 10px;
+}
+
+.Footer { 
+    background-color: $color-cream;
+    color: $color-primary;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-evenly;
+    font-size: 20px;
+    height: 150px;
+    :visited {
+        color: $color-primary;
+    }
+}
+
+.main-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px;
+    text-align: center;
+}
+
+#Device-Mockup {
+    height: auto;
+    width: 200px;
+}
+
+.Pingus {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.Pingu1234 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+.DarkTitles {
+    color: $color-primary;
+    font-size: 21px;
+    padding: 10px;
+}
+
+.Pale {
+    color: $color-primary;
+    font-size: 14px;
+    width: 250px;
+}
+
+.Text1 {
+    color: $color-primary;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.Text2 {
+    color: $color-primary;
+    font-size: 17px;
+    font-weight: 300;
+}
+
+.Text3 {
+    color: $color-primary;
+    font-size: 17px;
+    font-weight: 100;
+    font-style: italic;
+}
